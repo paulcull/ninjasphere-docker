@@ -4,6 +4,16 @@ Runs a small, self-contained and definitely subtly-different-to-a-real-sphere co
 
 Currently only runs on x86_64 Docker, and natively supports boot2docker.
 
+The build creates binaries for
+
+- Linux 64 Bit
+- ARM 6 for Raspberry Pi
+- ARM 7 for Raspberry Pi 2 & Beagle Bone
+- Windows 386 for 32 Bit 
+- Windows amd64 for 64 Bit 
+
+[ToDo - getting the dockerfile optionality]
+
 ## Getting Started
 
 You'll need docker set up and ready to go. Start by running:

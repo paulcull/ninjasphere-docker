@@ -34,4 +34,4 @@ sphere-ui:
 	bash build-binary.sh ninjasphere/sphere-ui
 
 clean:
-	rm -rf sphere-config sphere-schemas $(BINARIES)
+	rm -rf sphere-config sphere-schemas $(BINARIES) bin-*
